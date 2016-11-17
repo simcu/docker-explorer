@@ -49,7 +49,9 @@ class Application {
 		$sub_dir = $this -> sub_dir ? $this -> sub_dir . '/' : '';
 		$class_file = CONTROLLER_DIR . $sub_dir.$class.'.class.php';
 		if (!is_file($class_file)) {
-			pr($class.' controller not exists!',1);
+			// pr($class.' controller not exists!',1);
+			header('location:/');
+			exit;
 		}
 		require_once $class_file;
 		if (!class_exists($class)) {

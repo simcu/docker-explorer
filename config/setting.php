@@ -22,7 +22,7 @@ $config['setting_system_default'] = array(
 	'system_desc'		=> "——资源管理器",
 	'path_hidden'		=> ".DS_Store,.gitignore,.trashcan",//目录列表隐藏的项
 	'auto_login'		=> "1",			// 是否自动登录；登录用户为guest
-	'first_in'			=> "explorer",	// 登录后默认进入[explorer desktop,editor]
+	'first_in'			=> "editor",	// 登录后默认进入[explorer desktop,editor]
 	'new_user_app'		=> "",
 	'new_user_folder'	=> "",
 );
