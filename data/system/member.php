@@ -1,0 +1,1 @@
+<?php exit;?>{"admin":{"name":"admin","password":"21232f297a57a5a743894a0e4a801fc3","role":"root","status":1},"simcu":{"name":"simcu","password":"91e0eee5c1e275412ada4ca559cce3ea","role":"default","status":1}}
