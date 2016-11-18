@@ -47,10 +47,6 @@
 				<div id='yarnball' title="<?php echo $L['address_in_edit'];?>"></div>
 				<div id='yarnball_input'><input type="text" name="path" value="" class="path" id="path"/></div>
 
-				<button class="btn btn-default" id='fav' title='<?php echo $L['add_to_fav'];?>' type="button">
-					<i class="font-icon icon-star"></i>
-				</button>
-
 				<button class="btn btn-default" id='up' title='<?php echo $L['go_up'];?>' type="button">
 					<i class="font-icon icon-circle-arrow-up"></i>
 				</button>
@@ -80,14 +76,6 @@
 					        	<i class="font-icon icon-folder-close-alt"></i><?php echo $L['recycle_clear'];?>
 					        </button>
 						</div>
-
-						<!-- 分享 tool -->
-						<div class="btn-group btn-group-sm kod_share_tool hidden">
-							<button id='refresh' class="btn btn-default" type="button">
-					        	<i class="font-icon icon-folder-close-alt"></i><?php echo $L['refresh'];?>
-					        </button>
-						</div>
-
 						<!-- 文件功能 -->
 						<div class="btn-group btn-group-sm kod_path_tool">
 					        <button id='newfolder' class="btn btn-default" type="button">
@@ -106,7 +94,6 @@
 						    </button>
 						    <ul class="dropdown-menu pull-right drop-menu-action fadein">
 								<li id="open"><a href='javascript:;'><i class="font-icon icon-folder-open-alt"></i><?php echo $L['open'];?></a></li>
-							    <li id="share"><a href='javascript:;'><i class="font-icon icon-share-sign"></i><?php echo $L['share'];?></a></li>
 							    <li id="download"><a href='javascript:;'><i class="font-icon icon-download"></i><?php echo $L['download'];?></a></li>
 							    <li id="zip"><a href='javascript:;'><i class="font-icon icon-folder-close"></i><?php echo $L['zip'];?></a></li>
 							    <li class="divider"></li>

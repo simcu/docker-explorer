@@ -27,7 +27,6 @@ http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 				<a class="toolMenu editMenuEdit" href="javascript:;" draggable="false"><?php echo $L['edit'];?></a>
 				<a class="toolMenu editMenuView" href="javascript:;" draggable="false"><?php echo $L['view'];?></a>
 				<a class="toolMenu editMenuTools" href="javascript:;" draggable="false"><?php echo $L['tools'];?></a>
-				<a class="toolMenu editMenuHelp" href="javascript:;" draggable="false"><?php echo $L['help'];?></a>
 			</div>
 			<div class="right">
 				<a action="close" href="javascript:;" title="<?php echo $L['close'];?>"><i class="font-icon icon-remove"></i></a>

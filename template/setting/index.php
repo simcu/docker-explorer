@@ -19,14 +19,9 @@ http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 			<h1><?php echo $L['setting_title'];?></h1>
 			<ul class='setting'>
 				<li id="system"><i class="font-icon icon-cog"></i><?php echo $L['system_setting'];?></li>
-				<li id="user"><i class="font-icon icon-user"></i><?php echo $L['setting_user'];?></li>
 				<li id="member"><i class="font-icon icon-group"></i><?php echo $L['setting_member'];?></li>
 				<li id="theme"><i class="font-icon icon-dashboard"></i><?php echo $L['setting_theme'];?></li>
-				<li id="wall"><i class="font-icon icon-picture"></i><?php echo $L['setting_wall'];?></li>
-				<li id="fav"><i class="font-icon icon-star"></i><?php echo $L['setting_fav'];?></li>
 				<li id="player"><i class="font-icon icon-music"></i><?php echo $L['setting_player'];?></li>	
-				<li id="help"><i class="font-icon icon-question"></i><?php echo $L['setting_help'];?></li>
-				<li id="about"><i class="font-icon icon-info-sign"></i><?php echo $L['setting_about'];?></li>
 			</ul>
 		</div>		
 		<div class='main'></div>

@@ -258,7 +258,8 @@ class explorer extends Controller{
             $path_this = _DIR($val['path']);
             $filename  = get_path_this($path_this);
             $filename = get_filename_auto(USER_RECYCLE.$filename,date(' h:i:s'),'folder_rename');//已存在处理 创建副本
-            if (@rename($path_this,$filename)) {
+            $status_code=system('mv '.$path_this.' '.$filename);
+            if ($status_code == 0) {
                 $success++;
             }else{
                 $error++;

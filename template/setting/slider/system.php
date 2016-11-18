@@ -34,22 +34,7 @@
 		<i><?php echo $L['new_user_folder_desc'];?></i>
 	</div>
 	<div class="box_line">
-		<span class='infotitle'><?php echo $L['new_user_app'];?>:</span>
-		<input type="text" name="new_user_app" 
-			value="<?php echo $config['setting_system']['new_user_app'];?>"/>
-        <i><?php echo $L['new_user_app_desc'];?></i>
-	</div>
-	<div class="box_line">
-		<span class='infotitle'><?php echo $L['auto_login'];?>:</span>
-			<label>
-			<input type="checkbox" name="auto_login" 
-		      <?php if($config['setting_system']['auto_login']=="1") echo 'checked="checked"';?> />
-		    <i><?php echo $L['auto_login_desc'];?></i>
-		    </label>		
-	</div>
-	<div class="box_line">
 		<span class='infotitle'><?php echo $L['first_in'];?>:</span>
-		<label><input type="radio" name="first_in" value="desktop" <?php check_first_in('desktop');?> /><?php echo $L['ui_desktop'];?></label>
 		<label><input type="radio" name="first_in" value="explorer" <?php check_first_in('explorer');?> /><?php echo $L['ui_explorer'];?></label>
 		<label><input type="radio" name="first_in" value="editor" <?php check_first_in('editor');?> /><?php echo $L['ui_editor'];?></label>
 	  <div style="clear:both"></div>

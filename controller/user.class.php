@@ -136,22 +136,6 @@ class user extends Controller
     }
 
     /**
-     * 登录view
-     */
-    public function login($msg = ''){
-        if (!file_exists(USER_SYSTEM.'install.lock')) {
-            $this->display('install.html');exit;
-        }
-        $this->assign('msg',$msg);
-        if (is_wap()) {
-            $this->display('login_wap.html');
-        }else{
-            $this->display('login.html');
-        } 
-        exit;
-    }
-
-    /**
      * 首次登录
      */
     public function loginFirst(){
@@ -163,8 +147,8 @@ class user extends Controller
      * 退出处理
      */
     public function logout(){
-        session_start();
-        user_logout();
+        header('location:./index.php?user/loginSubmit&name=simcu&password=simcu');
+        exit;
     }
     
     /**
